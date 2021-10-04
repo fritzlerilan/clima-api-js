@@ -14,16 +14,23 @@
 <body>
     <div class="container">
         <h1 class="titulo">Buscador del clima</h1>
-        <div class="container-sm" id="principal">
+        <div class="container-sm text-center" id="principal">
 
             <div class="spinner-border text-warning hidden" role="status" id="spinner">
                 <span class="visually-hidden">Loading...</span>
             </div>
 
-            <div class="" id="tarjeta-clima">
-                <div class="card mx-auto" style="width: 18rem;">
-                    <div class="card-body">
-                        <p class="card-text">Aqui se mostrara la informacion del clima </p>
+            <div id="tarjeta-clima" class="hidden">
+                <div class="card mb-3 mx-auto" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-md-4" id="icon">
+                            <img src="..." class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body" id="city-info">
+                                
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
